@@ -4,6 +4,16 @@
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
+//Creating password object.
+var pwdCriteria = {
+
+
+//Property for length of password
+  pwdLength: 0,
+
+
+
+  
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();

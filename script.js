@@ -12,15 +12,17 @@ var pwdCriteria = {
   minLength: 8, 
   maxLength: 128,
 
-
 }
 function generatePassword() {
+  var hasSpecialCharacter = false
   var passwordLength = window.prompt("How long is your password?")
   var includesLowercase = window.prompt("Do you want to include lowercase letters?")
   var includesUppercase = window.prompt("Do you want to include uppercase letters?")
   var includesNumbers = window.prompt("What about numbers?")
   var includesSpecialCharacters = window.prompt("Are you adding any special characters?")
-
+for(var x = 0; x === passwordLength; x++) {
+  
+}
 }
 // Write password to the #password input
 function writePassword() {

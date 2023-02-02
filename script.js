@@ -9,11 +9,15 @@ var pwdCriteria = {
 
 
 //Property for length of password
-  pwdLength: 0,
+  minLength: 8, 
+  maxLength: 128,
 
 
-
+}
+function generatePassword() {
+  console.log("hello") 
   
+}
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
